@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polyglot.Server", "Polyglot.Server\Polyglot.Server.csproj", "{B8CDBE71-47C4-4507-B471-6B6EFB3ECAB6}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "polyglot.client", "polyglot.client\polyglot.client.esproj", "{B442D8B1-AB13-471E-AC5D-EB71A58E51A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8CDBE71-47C4-4507-B471-6B6EFB3ECAB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8CDBE71-47C4-4507-B471-6B6EFB3ECAB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8CDBE71-47C4-4507-B471-6B6EFB3ECAB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8CDBE71-47C4-4507-B471-6B6EFB3ECAB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B442D8B1-AB13-471E-AC5D-EB71A58E51A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B442D8B1-AB13-471E-AC5D-EB71A58E51A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B442D8B1-AB13-471E-AC5D-EB71A58E51A4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B442D8B1-AB13-471E-AC5D-EB71A58E51A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B442D8B1-AB13-471E-AC5D-EB71A58E51A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B442D8B1-AB13-471E-AC5D-EB71A58E51A4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86B601DA-7A14-4091-84DF-BF7D2C43B4BD}
+	EndGlobalSection
+EndGlobal

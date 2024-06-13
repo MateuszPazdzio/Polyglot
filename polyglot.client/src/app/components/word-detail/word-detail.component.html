@@ -1,0 +1,11 @@
+<div class="word-item" [ngClass]="{'needToBeStudied':detail.needToBeStudied}">
+  <span>{{detail.word.polishTranslation}}</span>
+
+  <div class="three-dots">&#x2026;</div>
+  <div class="action-panel">
+    <div class="dropdown-item col-12"><a class="d-flex justify-content-center col-12" [routerLink]="['/edit/',detail.id]">Edit</a></div>
+    <div class="dropdown-item col-12"><a class="d-flex justify-content-center col-12" [routerLink]="['/delete/',detail.id]">Delete</a></div>
+    <div class="dropdown-item col-12"><a class="d-flex justify-content-center col-12" (click)="changeStudyStatus(detail.id)">Add to Memorize</a></div>
+  </div>
+
+</div>

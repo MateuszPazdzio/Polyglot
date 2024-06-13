@@ -1,0 +1,44 @@
+.word-item {
+  position: relative;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-panel {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+}
+
+  .three-dots:hover + .action-panel,
+  .action-panel:hover {
+    display: block;
+  }
+
+
+  .action-panel .dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+
+
+a {
+  text-decoration: none;
+  color: #808080
+}
+
+.needToBeStudied {
+  background-color: red;
+}
